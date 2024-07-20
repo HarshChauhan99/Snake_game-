@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+    color: #FFFFFF;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.landingPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+}
+
+.landingPage > h1 {
+    font-size: 3rem;
+}
+
+.landingPage > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.landingPage > p > img {
+    width: 100px;
+    margin: 20px;
+}
+
+#startBtn {
+    border-radius: 50px;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+.StartedGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.Game {
+    margin-bottom: 20%;
+    width: 400px;
+    position: relative;
+}
+
+.Game > h1 {
+    font-size: 50px;
+}
+
+.Game > p {
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.Game > p > img {
+    width: 100px;
+    margin: 0 10px;
+}
+.Game > h2{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.Game > button{
+    border-radius: 50px;
+    padding: 5px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gameCanvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid black;
+    margin: 10px;
+}
